@@ -170,6 +170,7 @@ export const cancel = async (req, res) => {
       throw new InvalidTransaction();
     }
     var update_val = {};
+    //get hash
     update_val.cancelHash = cancelHash;
     update_val.current = 5;
     if(checkedHash.nonce.length != 0){
