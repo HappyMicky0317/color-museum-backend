@@ -11,7 +11,11 @@ import {
 
 import { ethers } from "ethers";
 
+<<<<<<< HEAD
 // git test
+=======
+// development branch test
+>>>>>>> development
 var infura_http = new ethers.providers.JsonRpcProvider(infura_http_provider);
 
 const checkAcceptHash = async (hashData) => {
