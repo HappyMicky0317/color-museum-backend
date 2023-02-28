@@ -11,7 +11,7 @@ import {
 
 import { ethers } from "ethers";
 
-// dsfsdfsdfsdfsdf
+// dsfsdfsdfsdfsd
 var infura_http = new ethers.providers.JsonRpcProvider(infura_http_provider);
 
 const checkAcceptHash = async (hashData) => {
